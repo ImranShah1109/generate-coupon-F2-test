@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Module Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="item">
+            <img src="./register.png" id="register" alt="register logo">
+        </div>
+        <div class="item">
+            <img src="./user.png" id="userInfo" alt="user-logo">
+        </div>
+        <div class="item">
+            <img src="./token.png" id="play" alt="token">
+        </div>
+        <div class="item1">
+            <img src="./numbers.png" id="generateToken" alt="numbers">
+        </div>
+        <div class="item1">
+            <h3>Clicked above image to register</h3>
+        </div>
+        <div class="item1">
+            <h3>Clicked above image to get user info</h3>
+        </div>
+        <div class="item1">
+            <h3>Clicked above image to roll the roll the dice</h3>
+        </div>
+        <div class="item1">
+            <h3>
+                Clicked above image to generate Coupon
+            </h3>
+        </div>
+    </div>
+    <div class="form hide">
+        <h3>Registeration Form</h3><br><br>
+        <label for="name">Enter Your Name : </label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Enter Your Email Id : </label>
+        <input type="email" name="" id="email"><br><br>
+        <label for="userName">Enter your Username : </label>
+        <input type="text" name="" id="userName"><br><br>
+        <button  id="submit">Submit</button>
+    </div>
+
+    <div class="user-info hide">
+        <div class="col"><b>Id</b></div>
+        <div class="col"><b>Name</b></div>
+        <div class="col"><b>Email</b></div>
+        <div class="col"><b>Username</b></div>
+    </div>
+
+    <div class="play-dice hide">
+        <img src="./dice.png" id="dice" alt="dice">
+        <h2>0</h2>
+        <h1>Total Score : <span>0</span></h1>
+    </div>
+
+    <div class="congrats hide">
+        <img src="./congrats.png" alt="congrats">
+        <div class="token">
+            <h1>!!! Congratulation !!!</h1>
+            <h3>Your Coupon No. is <span></span></h3>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

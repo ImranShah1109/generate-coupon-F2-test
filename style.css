@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    width: 98vw;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.item1{
+    /* background-color: aqua; */
+    /* border: 1px solid blue; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 299px;
+}
+
+.hide{
+    display: none !important;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* border: 1px solid lightgray; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0 0 300px;
+}
+
+.user-info{
+    position: relative;
+    margin: 150px 0 0 300px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-gap: 10px;
+}
+.user-info .col{
+    text-align: center;
+    border: 1px solid lawngreen;
+    border-radius: 25%;
+}
+
+.play-dice{
+    margin: 150px 0 0 600px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.play-dice img{
+    width: 150px;
+    height: 150px;
+    left: 25%;
+}
+
+.congrats{
+    left: 400px;
+    position: relative;
+    top: -161px;
+}
+
+.congrats img{
+    width: 700px;
+    height: 400px;
+}
+
+.congrats .token{
+    position: absolute;
+    z-index: 5;
+    top: 165px;
+    left: 215px;
+    color: gold;
+}
